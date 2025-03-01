@@ -170,7 +170,7 @@ public class GestionBaseDatos {
     }
 
     public static void modificarTlf() {
-        System.out.print("Introduce tu contrasena actual: ");
+        System.out.print("Introduce tu telefono actual: ");
         String tlfActual = inval.nextLine();
 
         int idCliente = IdsUsuarioUpdates.getIdUsuarioTlf(tlfActual);
